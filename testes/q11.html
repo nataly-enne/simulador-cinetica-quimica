@@ -1,0 +1,32 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Questão 11</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<link rel="shortcut icon" href="../img/ico.ico" type="image/x-icon">
+	<script type="text/javascript" src="../javaScript/js.js"></script><script>
+		var num_perg = 11;
+	</script>
+</head>
+<body onload="verificarErros()">
+	<div id="score">
+		<span>Acertos: <span id="vd"></span></span>
+		</br>
+		<span>Erros: <span id="vm"></span></span>		
+	</div>
+	<a href="../index.html" id="botao">
+		<img src="../img/atomoo.png">
+		<span>CINÉTICA<br/>QUÍMICA</span>
+	</a>
+	<div class="quiz">
+	<div class="enu">(OSEC). Em uma reação, o complexo ativado:</div>
+	<button onclick="resposta(this)" id="certo">Possui mais energia que os reagentes ou os produtos.</button>
+	<button onclick="resposta(this)">Age como catalisador.</button>
+	<button onclick="resposta(this)">Sempre forma produtos.</button>
+	<button onclick="resposta(this)">É composto estável.</button>
+	<button onclick="resposta(this)">Possui menos energia que os reagentes ou os produtos.</button>
+	<button id="confirmar" onclick="verifica(this)">Confirmar</button>
+	</div>
+	<a href="q12.html"><button class="prox"><img src="../img/setaright.png"></button></a>
+	<a href="q10.html"><button class="ant"><img src="../img/setaleft.png"></button></a>
+</html>

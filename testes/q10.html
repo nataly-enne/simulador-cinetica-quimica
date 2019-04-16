@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Questão 10</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<link rel="shortcut icon" href="../img/ico.ico" type="image/x-icon">
+	<script type="text/javascript" src="../javaScript/js.js"></script>
+<script>
+		var num_perg = 10;
+	</script>
+</head>
+<body onload="verificarErros()">
+	<div id="score">
+		<span>Acertos:<span id="vd"></span></span>
+		</br>
+		<span>Erros:<span id="vm"></span></span>		
+	</div>
+	<a href="../index.html" id="botao">
+		<img src="../img/atomoo.png">
+		<span>CINÉTICA<br/>QUÍMICA</span>
+	</a>
+	<div class="quiz">
+		<div class="enu">A concentração, temperatura, catalisadores, superfície de contato e pressão agem na reação:</div>
+			<button onclick="resposta(this)">Aumentando o tempo de processamento. </button>
+			<button onclick="resposta(this)">Aumentando a quantidade e tipo de produtos formados.</button>
+			<button onclick="resposta(this)" id="certo">Aumentando os choques intermoleculares.</button>
+			<button onclick="resposta(this)">aumentando o total de reagentes e participando da reação (em relação ao catalisador)</button>
+			<button id="confirmar" onclick="verifica(this)">Confirmar</button>
+	</div>
+	</div>
+	<a href="q9.html"><button class="ant"><img src="../img/setaleft.png"></button></a>
+	<a href="q11.html"><button class="prox"><img src="../img/setaright.png"></button></a>
+</body>
+</html>

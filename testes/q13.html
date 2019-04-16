@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Questão 13</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<link rel="shortcut icon" href="../img/ico.ico" type="image/x-icon">
+	<script type="text/javascript" src="../javaScript/js.js"></script>
+<script>
+		var num_perg = 13;
+	</script>
+</head>
+<body onload="verificarErros()">
+	<div id="score">
+		<span>Acertos: <span id="vd"></span></span>
+		</br>
+		<span>Erros: <span id="vm"></span></span>		
+	</div>
+	<a href="../index.html" id="botao">
+		<img src="../img/atomoo.png">
+		<span>CINÉTICA<br/>QUÍMICA</span>
+	</a>
+	<div class="quiz">
+	<div class="enu">(UFMG). Na cinética de uma reação, o aumento da temperatura provoca aumento de todas as seguintes grandezas, exceto:</div>
+
+		<button onclick="resposta(this)">Velocidade média das moléculas.</button>
+		<button onclick="resposta(this)">Número de colisões entre as moléculas dos reagentes.</button>
+		<button onclick="resposta(this)" id="certo">Energia de ativação.</button>
+		<button onclick="resposta(this)">Velocidade da reação.</button>
+		<button onclick="resposta(this)">Energia do sistema.</button>
+
+	<button id="confirmar" onclick="verifica(this)">Confirmar</button>
+	</div>
+	<a href="q14.html"><button class="prox"><img src="../img/setaright.png"></button></a>
+	<a href="q12.html"><button class="ant"><img src="../img/setaleft.png"></button></a>
+</html>

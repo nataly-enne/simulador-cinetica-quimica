@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Questão 14</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<link rel="shortcut icon" href="../img/ico.ico" type="image/x-icon">
+	<script type="text/javascript" src="../javaScript/js.js"></script>
+<script>
+		var num_perg = 14;
+	</script>
+</head>
+<body onload="verificarErros()">
+	<div id="score">
+		<span>Acertos: <span id="vd"></span></span>
+		</br>
+		<span>Erros: <span id="vm"></span></span>		
+	</div>
+	<a href="../index.html" id="botao">
+		<img src="../img/atomoo.png">
+		<span>CINÉTICA<br/>QUÍMICA</span>
+	</a>
+	<div class="quiz">
+	<div class="enu">(MACK-SP). A sabedoria popular indica que, para acender uma lareira, devemos utilizar inicialmente lascas de lenha e só depois colocarmos toras. Em condições reacionais idênticas e utilizando massas iguais de madeira em lascas e toras, verifica-se que madeira em lascas queima com mais velocidade. O fator determinante, para essa maior velocidade da reação, é o aumento da:</div>
+
+		<button onclick="resposta(this)">Pressão.</button>
+		<button onclick="resposta(this)">Temperatura.</button>
+		<button onclick="resposta(this)">Concentração.</button>
+		<button onclick="resposta(this)" id="certo">Superfície de contato.</button>
+		<button onclick="resposta(this)">Energia de ativação.</button>
+
+	<button id="confirmar" onclick="verifica(this)">Confirmar</button>
+	</div>
+	<a href="q13.html"><button class="ant"><img src="../img/setaleft.png"></button></a>
+</html>

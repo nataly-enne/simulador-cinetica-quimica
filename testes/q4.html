@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Questão 4</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<link rel="shortcut icon" href="../img/ico.ico" type="image/x-icon">
+	<script type="text/javascript" src="../javaScript/js.js"></script>
+	<script>
+		var num_perg = 4;
+	</script>
+</head>
+<body onload="verificarErros()">
+	<div id="score">
+		<span >Acertos: <span id="vd"></span></span>
+		</br>
+		<span >Erros: <span id="vm"></span></span>		
+	</div>
+	<a href="../index.html" id="botao">
+		<img src="../img/atomoo.png">
+		<span>CINÉTICA<br/>QUÍMICA</span>
+	</a>
+	<div class="quiz">
+	<div class="enu">Indique a afirmação incorreta:</div>
+	<button onclick="resposta(this)" id="certo">Quanto menor for a temperatura, maior será a velocidade de uma reação</button>
+	<button onclick="resposta(this)">O aumento da temperatura aumenta a velocidade tanto da reação endotérmica quanto da reação exotérmica.</button>
+	<button onclick="resposta(this)">A velocidade de um reagente no estado sólido é menor que no estado líquido.</button>
+	<button onclick="resposta(this)">A diferença energética entre os produtos e os reagentes é chamada de entalpia de reação.</button>
+	<button onclick="resposta(this)">A velocidade de uma reação depende da natureza do reagente.</button>
+	<button id="confirmar" onclick="verifica(this)">Confirmar</button>
+	</div>
+	</div>
+	<a href="q5.html"><button class="prox"><img src="../img/setaright.png"></button></a>
+	<a href="q3.html"><button class="ant"><img src="../img/setaleft.png"></button></a>
+</body>
+</html>

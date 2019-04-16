@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Questão 5</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<link rel="shortcut icon" href="../img/ico.ico" type="image/x-icon">
+	<script type="text/javascript" src="../javaScript/js.js"></script>
+<script>
+		var num_perg = 5;
+	</script>
+</head>
+<body onload="verificarErros()">
+	<div id="score">
+		<span >Acertos: <span id="vd"></span></span>
+		</br>
+		<span >Erros: <span id="vm"></span></span>		
+	</div>
+	<a href="../index.html" id="botao">
+		<img src="../img/atomoo.png">
+		<span>CINÉTICA<br/>QUÍMICA</span>
+	</a>
+	<div class="quiz">
+	<div class="enu">(PUC-SP) Considere as duas fogueiras representadas abaixo, feitas, lado a lado, com o mesmo tipo e qualidade de lenha.
+	</br>
+		<div id="imgT">
+		<img src="../img/fog.png">
+		</div>
+	A rapidez da combustão da lenha será:
+	</div>
+	<button onclick="resposta(this)">Maior na fogueira 1, pois a superfície de contato com o ar é maior.</button>
+	<button onclick="resposta(this)">Maior na fogueira 1, pois a lenha está mais compactada, o que evita a vaporização de componentes voláteis.</button>
+	<button onclick="resposta(this)">Igual nas duas fogueiras, uma vez que a quantidade de lenha é a mesma e estão no mesmo ambiente.</button>
+	<button onclick="resposta(this)">Maior na fogueira 2, pois a lenha está menos compactada, o que permite maior retenção de calor pela madeira.</button>
+	<button onclick="resposta(this)" id="certo">Maior na fogueira 2, pois a superfície de contato com o ar é maior.</button>
+	<button id="confirmar" onclick="verifica(this)">Confirmar</button>
+	</div>
+	</div>
+	<a href="q6.html"><button class="prox"><img src="../img/setaright.png"></button></a>
+	<a href="q4.html"><button class="ant"><img src="../img/setaleft.png"></button></a>
+</body>
+</html>

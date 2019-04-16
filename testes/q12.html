@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Questão 12</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<link rel="shortcut icon" href="../img/ico.ico" type="image/x-icon">
+	<script type="text/javascript" src="../javaScript/js.js"></script>
+<script>
+		var num_perg = 12;
+	</script>
+</head>
+<body onload="verificarErros()">
+	<div id="score">
+		<span>Acertos: <span id="vd"></span></span>
+		</br>
+		<span>Erros: <span id="vm"></span></span>		
+	</div>
+	<a href="../index.html" id="botao">
+		<img src="../img/atomoo.png">
+		<span>CINÉTICA<br/>QUÍMICA</span>
+	</a>
+	<div class="quiz">
+	<div class="enu">(F.C.C). Um catalisador age sobre uma reação química:</div>
+		<button onclick="resposta(this)">Aumentando a energia de ativação da reação.</button>
+		<button onclick="resposta(this)" id="certo">Diminuindo a energia de ativação da reação.</button>
+		<button onclick="resposta(this)">Diminuindo a variação de entalpia da reação.</button>
+		<button onclick="resposta(this)">Aumentando o nível energético do produto.</button>
+		<button onclick="resposta(this)">Diminuindo o nível energético dos reagentes.</button>
+		<button id="confirmar" onclick="verifica(this)">Confirmar</button>
+	</div>
+	<a href="q13.html"><button class="prox"><img src="../img/setaright.png"></button></a>
+	<a href="q11.html"><button class="ant"><img src="../img/setaleft.png"></button></a>
+</html>

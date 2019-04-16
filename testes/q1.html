@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Questão 1</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<link rel="shortcut icon" href="../img/ico.ico" type="image/x-icon">
+	<script type="text/javascript" src="../javaScript/js.js"></script>
+	<script>
+		var num_perg = 1;
+	</script>
+</head>
+<body onload="verificarErros()">
+
+	<div id="score">
+		<span>Acertos: <span id="vd"></span></span>
+		</br>
+		<span>Erros: <span id="vm"></span></span>		
+	</div>
+
+	<a href="../index.html" id="botao">
+		<img src="../img/atomoo.png">
+		<span>CINÉTICA<br/>QUÍMICA</span>
+	</a>
+	<div class="quiz">
+	<div class="enu">A quantidade mínima de energia necessária para que as moléculas possam reagir chama-se?</div>
+	<button onclick="resposta(this)">Energia de ionização.</button>
+	<button onclick="resposta(this)">Energia de ligação.</button>
+	<button onclick="resposta(this)">Energia de dissociação.</button>
+	<button onclick="resposta(this)" id="certo">Energia de ativação.</button>
+	<button onclick="resposta(this)">Energia de excitação.</button>
+	<button id="confirmar" onclick="verifica(this)">Confirmar</button>
+	</div>
+
+	<a href="q2.html"><button class="prox"><img src="../img/setaright.png"></button></a>
+</html>

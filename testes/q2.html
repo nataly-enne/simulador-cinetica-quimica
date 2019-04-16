@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Questão 2</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<link rel="shortcut icon" href="../img/ico.ico" type="image/x-icon">
+	<script type="text/javascript" src="../javaScript/js.js"></script>
+<script>
+		var num_perg = 2;
+	</script>
+</head>
+<body onload="verificarErros()">
+	<div id="score">
+		<span>Acertos: <span id="vd"></span></span>
+		</br>
+		<span>Erros: <span id="vm"></span></span>		
+	</div>
+
+	<a href="../index.html" id="botao">
+		<img src="../img/atomoo.png">
+		<span>CINÉTICA<br/>QUÍMICA</span>
+	</a>
+
+	<div class="quiz">
+	<div class="enu">Um comprimido efervescente reage mais rapidamente com a água se for moído. Isso porque, com a moagem, torna-se maior a:</div>
+	<button onclick="resposta(this)">Concentração dos componentes do comprimido na água.</button>
+	<button onclick="resposta(this)">Ação catalítica da água sobre o comprimido.</button>
+	<button onclick="resposta(this)" id="certo">Superfície de contato dos componentes do comprimido com água.</button>
+	<button onclick="resposta(this)">Temperatura do comprimido.</button>
+	<button onclick="resposta(this)">Energia cinética das espécies componentes do comprimido.</button>
+	<button id="confirmar" onclick="verifica(this)">Confirmar</button>
+	</div>
+	<a href="q3.html"><button class="prox"><img src="../img/setaright.png"></button></a>
+	<a href="q1.html"><button class="ant"><img src="../img/setaleft.png"></button></a>
+</body>
+</html>
