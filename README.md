@@ -3,3 +3,5 @@ Projeto de pesquisa desenvolvido como requisito para obtenção da aprovação n
 
 # What is it?
 É um site com intuito pedagógico que irá possibilitar o acesso a conceitos, simulaçes de reações químicas e uma série de questões para auxiliar no aprendizado do conteúdo de Cinética Química.
+
+#### Há um arquivo em .pdf que é o artigo sobre o projeto.
